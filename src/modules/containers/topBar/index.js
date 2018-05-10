@@ -1,10 +1,7 @@
 import React from 'react';
 
 const TopBar = () => (
-    <ul className="sidenav">
-        {/* <li className="main-logo">
-            <img src="/uploads/Logo.jpg" />
-        </li> */}
+    <ul className="top-ul">
         <li><a href="#home">
             Home</a>
         </li>

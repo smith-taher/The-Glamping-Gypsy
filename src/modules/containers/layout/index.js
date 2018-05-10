@@ -1,10 +1,14 @@
 import React from 'react';
 import TopBar from '../topBar';
+import BottomBar from '../bottomBar';
 
 const Layout = ({ children }) => (
     <div className="content-box">
         <TopBar/>
-        {children}
+            <div className="main-div">
+            {children}
+            </div>
+        <BottomBar/>
     </div>
 )
 
