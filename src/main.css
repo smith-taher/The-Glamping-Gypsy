@@ -15,12 +15,13 @@ body {
 }
 
 .content-box {
-    display: flex;
+    display: block;
     opacity: 0.9;
     filter: alpha(opacity=50);
     width: 70%;
-    height: 100%;
+    height: auto;
     background-color: rgba(247, 243, 243, 0.623);
+    justify-content: center;
 }
 
 /* .main-logo {
@@ -32,18 +33,19 @@ body {
 } */
 
 /* Top Navigation Bar */
-ul {
+.top-ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: black;
+    /* overflow: hidden; */
+    opacity: 0.9;
+    filter: alpha(opacity=50);
+    background-color: rgb(247, 243, 243);
     border: 1px solid #e7e7e7;
     display: inline-flex;
     position: fixed;
     top: 0;
     width: 70%;
-    justify-content: flex-end;
 }
 
 li {
@@ -53,29 +55,50 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 li:last-child {
-    border-right: none;
+    border-right: 1px solid #bbb;
 }
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
+/* li a:hover {
     background-color: #111;
-}
+} */
 
 li a:hover:not(.active) {
-    background-color: rgb(196, 34, 34);
+    background-color: rgba(111, 238, 189, 0.68);
 }
 
-.active {
+/* .active {
     background-color: #4CAF50;
+} */
+
+/* Bottom Navigation Bar */
+.bottom-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+    opacity: 0.9;
+    filter: alpha(opacity=50);
+    background-color: rgb(247, 243, 243);
+    border: 1px solid #e7e7e7;
+    display: inline-flex;
+    position: fixed;
+    bottom: 0;
+    width: 70%;
+    /* justify-content: flex-end; */
 }
 
+.main-div {
+    overflow: scroll;
+    justify-content: center;
+}
 /* Side Navigation Bar for Media Query */
 
 /* ul.sidenav {
@@ -131,6 +154,20 @@ div.content {
         float: none;
     }
 } */
+
+/* Home Page Image Gallery */
+
+.home-gallery {
+    display: inline-block;
+    width: 80%;
+    height: auto;
+    margin-top: 15%;
+    /* align-self: top; */
+}
+
+.home-h1 {
+    text-align: center;
+}
 
 #page-preloader {
     position: fixed;
