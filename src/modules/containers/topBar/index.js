@@ -1,7 +1,7 @@
 import React from 'react';
 
 const TopBar = () => (
-    <ul className="top-ul">
+    <ul className="bar">
         <li><a href="#home">
             Home</a>
         </li>

@@ -4,11 +4,11 @@ import BottomBar from '../bottomBar';
 
 const Layout = ({ children }) => (
     <div className="content-box">
-        <TopBar/>
-            <div className="main-div">
+        <TopBar />
+        <div className="main-div">
             {children}
-            </div>
-        <BottomBar/>
+        </div>
+        <BottomBar />
     </div>
 )
 
