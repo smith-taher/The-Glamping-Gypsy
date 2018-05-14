@@ -20,6 +20,8 @@ const TopBar = () => (
         <li><a href="#contact">
             Contact Us</a>
         </li>
+        <button className="button">Book Now!
+        </button>
     </ul>
 )
 
