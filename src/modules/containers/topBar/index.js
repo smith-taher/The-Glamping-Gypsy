@@ -5,8 +5,8 @@ const TopBar = () => (
         <li><a href="#home">
             Home</a>
         </li>
-        <li><a href="#reservations">
-            Reservations</a>
+        <li><a href="#campsites">
+            Campsites</a>
         </li>
         <li><a href="#premium">
             Premium Packages</a>
@@ -20,8 +20,13 @@ const TopBar = () => (
         <li><a href="#contact">
             Contact Us</a>
         </li>
-        <button className="button">Book Now!
-        </button>
+        <li className='itemButton'>
+            <button
+                className='btn btn-primary'
+            >
+                Book Now!
+            </button>
+        </li>
     </ul>
 )
 

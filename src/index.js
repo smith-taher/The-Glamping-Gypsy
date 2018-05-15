@@ -11,7 +11,7 @@ import { Provider } from 'react-redux';
 
 import Layout from './modules/containers/layout';
 import Home from './modules/containers/home';
-import Reservations from './modules/containers/reservations';
+import Campsites from './modules/containers/campsites';
 import Packages from './modules/containers/packages'
 import Photos from './modules/containers/photos';
 import FAQ from './modules/containers/faq';
@@ -30,7 +30,7 @@ ReactDOM.render (
         <Router history={history}>
             <Route component={Layout}>
                 <Route path='/' component={Home} />
-                <Route path='/reservations' component={Reservations} />
+                <Route path='/campsites' component={Campsites} />
                 <Route path='/packages' component={Packages} />
                 <Route path='/photos' component={Photos} />
                 <Route path='/faq' component={FAQ} />

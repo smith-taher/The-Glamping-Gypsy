@@ -1,0 +1,50 @@
+export default [
+    {
+    id: "1",
+    categoryId: "1",
+    name: "Gourmet Smores",
+    description: "Combining luxury and the outdoors, our completely furnished 16ft Bell Tents are a vacationer's dream come true. An additional Queen bed may be added to your reservation during the checkout process for an additional fee. We will also provide up to two twin bed set-ups upon request. You are always welcome to bring extra sleeping bags.",
+    price: 50,
+    image: "https://media.istockphoto.com/photos/homemade-gooey-marshmallow-smores-picture-id535197090?k=6&m=535197090&s=612x612&w=0&h=M255uaTdnuFX_ESlOoXuRsi1Ra4wBEStkZFcVG8_J50=",
+    },
+    {
+    id: "2",
+    categoryId: "1",
+    name: "Gourmet Smores",
+    description: "Combining luxury and the outdoors, our completely furnished 16ft Bell Tents are a vacationer's dream come true. An additional Queen bed may be added to your reservation during the checkout process for an additional fee. We will also provide up to two twin bed set-ups upon request. You are always welcome to bring extra sleeping bags.",
+    price: 50,
+    image: "https://media.istockphoto.com/photos/homemade-gooey-marshmallow-smores-picture-id535197090?k=6&m=535197090&s=612x612&w=0&h=M255uaTdnuFX_ESlOoXuRsi1Ra4wBEStkZFcVG8_J50=",
+    },
+    {
+    id: "3",
+    categoryId: "1",
+    name: "Gourmet Smores",
+    description: "Combining luxury and the outdoors, our completely furnished 16ft Bell Tents are a vacationer's dream come true. An additional Queen bed may be added to your reservation during the checkout process for an additional fee. We will also provide up to two twin bed set-ups upon request. You are always welcome to bring extra sleeping bags.",
+    price: 50,
+    image: "https://media.istockphoto.com/photos/homemade-gooey-marshmallow-smores-picture-id535197090?k=6&m=535197090&s=612x612&w=0&h=M255uaTdnuFX_ESlOoXuRsi1Ra4wBEStkZFcVG8_J50=",
+    },
+    {
+    id: "4",
+    categoryId: "1",
+    name: "Gourmet Smores",
+    description: "Combining luxury and the outdoors, our completely furnished 16ft Bell Tents are a vacationer's dream come true. An additional Queen bed may be added to your reservation during the checkout process for an additional fee. We will also provide up to two twin bed set-ups upon request. You are always welcome to bring extra sleeping bags.",
+    price: 50,
+    image: "https://media.istockphoto.com/photos/homemade-gooey-marshmallow-smores-picture-id535197090?k=6&m=535197090&s=612x612&w=0&h=M255uaTdnuFX_ESlOoXuRsi1Ra4wBEStkZFcVG8_J50=",
+    },
+    {
+    id: "5",
+    categoryId: "1",
+    name: "Gourmet Smores",
+    description: "Combining luxury and the outdoors, our completely furnished 16ft Bell Tents are a vacationer's dream come true. An additional Queen bed may be added to your reservation during the checkout process for an additional fee. We will also provide up to two twin bed set-ups upon request. You are always welcome to bring extra sleeping bags.",
+    price: 50,
+    image: "https://media.istockphoto.com/photos/homemade-gooey-marshmallow-smores-picture-id535197090?k=6&m=535197090&s=612x612&w=0&h=M255uaTdnuFX_ESlOoXuRsi1Ra4wBEStkZFcVG8_J50=",
+    },
+    {
+    id: "6",
+    categoryId: "1",
+    name: "Gourmet Smores",
+    description: "Combining luxury and the outdoors, our completely furnished 16ft Bell Tents are a vacationer's dream come true. An additional Queen bed may be added to your reservation during the checkout process for an additional fee. We will also provide up to two twin bed set-ups upon request. You are always welcome to bring extra sleeping bags.",
+    price: 50,
+    image: "https://media.istockphoto.com/photos/homemade-gooey-marshmallow-smores-picture-id535197090?k=6&m=535197090&s=612x612&w=0&h=M255uaTdnuFX_ESlOoXuRsi1Ra4wBEStkZFcVG8_J50=",
+    }
+  ]

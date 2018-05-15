@@ -1,7 +1,7 @@
 import R from 'ramda';
 
 import {
-    FETCH_CAMPSITES_SUCCESS
+    FETCH_PACKAGES_SUCCESS
 } from '../actionTypes';
 
 const initialState = {
@@ -10,7 +10,7 @@ const initialState = {
 
 export default (state = initialState, { type, payload }) => {
     switch (type) {
-        case FETCH_CAMPSITES_SUCCESS:
+        case FETCH_PACKAGES_SUCCESS:
             const newValues = R.indexBy(R.prop('id'), payload)
             return R.merge(state, newValues)
         default:
