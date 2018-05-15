@@ -3,33 +3,33 @@ import { connect } from 'react-redux';
 import { Link } from 'react-router';
 import R from 'ramda';
 
-import { fetchPackages } from '../../actions';
-import { getPackages } from '../../selectors';
+import { fetchCampsites } from '../../actions';
+import { getCampsites } from '../../selectors';
 
-class Packages extends Component {
+class Campsites extends Component {
     componentDidMount () {
-        this.props.fetchPackages()
+        this.props.fetchCampsites()
     }
     
-    renderPackage ( packageP, index) {
-        const shortDescription = `${R.take(60, packageP.description)}...`
+    renderCampsite ( campsite, index) {
+        const shortDescription = `${R.take(60, campsite.tentDescription)}...`
 
         return (
             <div className='col-sm-4 col-lg-4 col-md-4 book-list' key={index}>
                 <div className='thumbnail'>
                     <img
                         className='img-thumbnail'
-                        src={packageP.image}
-                        alt={packageP.name}
+                        src={campsite.image}
+                        alt={campsite.name}
                     />
                 </div>
                 <div className='caption'>
                     <h4 className='pull-right'>
-                        ${packageP.price}
+                        ${campsite.price}
                     </h4>
                     <h4>
-                        <Link to={`/campsites/${packageP.id}`}>
-                            {packageP.name}
+                        <Link to={`/campsites/${campsite.id}`}>
+                            {campsite.name}
                         </Link>
                     </h4>
                     <p>
@@ -39,10 +39,10 @@ class Packages extends Component {
                         <button
                             className='btn btn-primary'
                         >
-                            Buy Now!
+                            Book Now!
                         </button>
                         <Link
-                            to={`/campsites/${packageP.id}`}
+                            to={`/campsites/${campsite.id}`}
                             className='btn btn-default'
                         >
                             More Info
@@ -54,11 +54,11 @@ class Packages extends Component {
     }
 
     render () {
-        const { packages } = this.props
-        console.log('packages', packages)
+        const { campsites } = this.props
+        console.log('campsites', campsites)
         return (
             <div className='books row'>
-                { packages.map((packageP, index) => this.renderPackage(packageP, index))}
+                { campsites.map((campsite, index) => this.renderCampsite(campsite, index))}
             </div>
         )
     }
@@ -66,11 +66,11 @@ class Packages extends Component {
 }
 
 const mapStateToProps = state => ({
-    packages: getPackages(state)
+    campsites: getCampsites(state)
 })
 
 const mapDispatchToProps = {
-    fetchPackages
+    fetchCampsites
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(Packages)
+export default connect(mapStateToProps, mapDispatchToProps)(Campsites)
