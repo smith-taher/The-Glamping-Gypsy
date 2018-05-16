@@ -3,32 +3,32 @@ import ImageGallery from '../photosHome';
 
 const images = [
     {
-      original: "/uploads/BeachBonfire.jpg",
-      thumbnail: "/uploads/BeachBonfire.jpg"
+      original: "uploads/BeachBonfire.jpg",
+      thumbnail: "uploads/BeachBonfire.jpg"
     },
     {
-      original: "/uploads/FieldTent.jpg",
-      thumbnail: "/uploads/FieldTent.jpg"
+      original: "uploads/FieldTent.jpg",
+      thumbnail: "uploads/FieldTent.jpg"
     },
     {
-      original: "/uploads/ForestTent.jpg",
-      thumbnail: "/uploads/ForestTent.jpg"
+      original: "uploads/ForestTent.jpg",
+      thumbnail: "uploads/ForestTent.jpg"
     },
     {
-      original: "/uploads/MountainTent.jpg",
-      thumbnail: "/uploads/MountainTent.jpg"
+      original: "uploads/MountainTent.jpg",
+      thumbnail: "uploads/MountainTent.jpg"
     },
     {
-      original: "/uploads/RedTent.jpg",
-      thumbnail: "/uploads/RedTent.jpg"
+      original: "uploads/RedTent.jpg",
+      thumbnail: "uploads/RedTent.jpg"
     },
     {
-      original: "/uploads/StarTent.jpg",
-      thumbnail: "/uploads/StarTent.jpg"
+      original: "uploads/StarTent.jpg",
+      thumbnail: "uploads/StarTent.jpg"
     },
     {
-      original: "/uploads/FieldofFog.jpg",
-      thumbnail: "/uploads/FieldofFog.jpg"
+      original: "uploads/FieldofFog.jpg",
+      thumbnail: "uploads/FieldofFog.jpg"
     }
   ]
 
