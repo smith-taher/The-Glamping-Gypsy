@@ -15,7 +15,7 @@ import Campsites from './modules/containers/campsites';
 import Campsite from './modules/containers/campsite';
 import Packages from './modules/containers/packages';
 import Package from './modules/containers/package';
-import Photos from './modules/containers/photos';
+import Gallery from './modules/containers/gallery';
 import FAQ from './modules/containers/faq';
 import Contact from './modules/containers/contact';
 
@@ -36,7 +36,7 @@ ReactDOM.render (
                 <Route path='/campsites/:id' component={Campsite} />
                 <Route path='/packages' component={Packages} />
                 <Route path='/packages/:id' component={Package} />
-                <Route path='/photos' component={Photos} />
+                <Route path='/gallery' component={Gallery} />
                 <Route path='/faq' component={FAQ} />
                 <Route path='/contact' component={Contact} />
             </Route>

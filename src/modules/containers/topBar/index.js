@@ -1,24 +1,37 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 const TopBar = () => (
     <ul className="bar">
-        <li><a href="#home">
-            Home</a>
+        <li><a>
+            <Link to={`/`}>
+            Home
+            </Link></a>
         </li>
-        <li><a href="#campsites">
-            Campsites</a>
+        <li><a>
+            <Link to={`/campsites`}>
+            Campsites
+            </Link></a>
         </li>
-        <li><a href="#premium">
-            Premium Packages</a>
+        <li><a>
+            <Link to={`/packages`}>
+            Optional Packages
+            </Link></a>
         </li>
-        <li><a href="#photo">
-            Photo Gallery</a>
+        <li><a>
+            <Link to={`/gallery`}>
+            Photo Gallery
+            </Link></a>
         </li>
-        <li><a href="#faq">
-            FAQ</a>
+        <li><a>
+            <Link to={`/faq`}>
+            FAQ
+            </Link></a>
         </li>
-        <li><a href="#contact">
-            Contact Us</a>
+        <li><a>
+            <Link to={`/contact`}>
+            Contact Us
+            </Link></a>
         </li>
         <li className='itemButton'>
             <button
