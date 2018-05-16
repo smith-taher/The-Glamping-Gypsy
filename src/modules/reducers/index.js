@@ -5,11 +5,15 @@ import campsites from './campsites';
 import campsitesPage from './campsitesPage';
 import packages from './packages';
 import packagesPage from './packagesPage';
+import campsitePage from './campsitePage';
+import packagePage from './packagePage';
 
 export default combineReducers ({
     routing: routerReducer,
     campsites,
     campsitesPage,
     packages,
-    packagesPage
+    packagesPage,
+    campsitePage,
+    packagePage
 })
