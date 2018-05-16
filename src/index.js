@@ -12,7 +12,9 @@ import { Provider } from 'react-redux';
 import Layout from './modules/containers/layout';
 import Home from './modules/containers/home';
 import Campsites from './modules/containers/campsites';
-import Packages from './modules/containers/packages'
+import Campsite from './modules/containers/campsite';
+import Packages from './modules/containers/packages';
+import Package from './modules/containers/package';
 import Photos from './modules/containers/photos';
 import FAQ from './modules/containers/faq';
 import Contact from './modules/containers/contact';
@@ -31,7 +33,9 @@ ReactDOM.render (
             <Route component={Layout}>
                 <Route path='/' component={Home} />
                 <Route path='/campsites' component={Campsites} />
+                <Route path='/campsites/:id' component={Campsite} />
                 <Route path='/packages' component={Packages} />
+                <Route path='/packages/:id' component={Package} />
                 <Route path='/photos' component={Photos} />
                 <Route path='/faq' component={FAQ} />
                 <Route path='/contact' component={Contact} />

@@ -28,7 +28,7 @@ class Packages extends Component {
                         ${packageP.price}
                     </h4>
                     <h4>
-                        <Link to={`/campsites/${packageP.id}`}>
+                        <Link to={`/packages/${packageP.id}`}>
                             {packageP.name}
                         </Link>
                     </h4>
@@ -42,7 +42,7 @@ class Packages extends Component {
                             Buy Now!
                         </button>
                         <Link
-                            to={`/campsites/${packageP.id}`}
+                            to={`/packages/${packageP.id}`}
                             className='btn btn-default'
                         >
                             More Info
