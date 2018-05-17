@@ -2,7 +2,7 @@ import React from 'react';
 
 const Gallery = () => (
     <div>
-       Gallery
+       Photo Gallery Coming Soon!
     </div>
 )
 

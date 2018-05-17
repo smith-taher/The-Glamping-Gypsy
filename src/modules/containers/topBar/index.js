@@ -2,7 +2,8 @@ import React from 'react';
 import { Link } from 'react-router';
 
 const TopBar = () => (
-    <ul className="bar sidenav">
+    <div className="bar">
+    <ul className="sidenav">
         <li><a>
             <Link to={`/`}>
             Home
@@ -15,12 +16,12 @@ const TopBar = () => (
         </li>
         <li><a>
             <Link to={`/packages`}>
-            Optional Packages
+            Packages
             </Link></a>
         </li>
         <li><a>
             <Link to={`/gallery`}>
-            Photo Gallery
+            Gallery
             </Link></a>
         </li>
         <li><a>
@@ -30,7 +31,7 @@ const TopBar = () => (
         </li>
         <li><a>
             <Link to={`/contact`}>
-            Contact Us
+            Contact
             </Link></a>
         </li>
         <li className='itemButton'>
@@ -41,6 +42,7 @@ const TopBar = () => (
             </button>
         </li>
     </ul>
+    </div>
 )
 
 export default TopBar;
