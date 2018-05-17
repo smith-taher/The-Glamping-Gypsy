@@ -4,7 +4,7 @@ html, body, #root {
 }
 
 body {
-    background-image: url("/uploads/FieldofFog.jpg");
+    background-image: url("https://images.pexels.com/photos/240040/pexels-photo-240040.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
 }
 
 #root {
@@ -54,8 +54,8 @@ ul {
 
 li {
     /* float: left; */
-    border-left: 1px solid #bbb;
-    border-right: 1px solid #bbb;
+    /* border-left: 1px solid #bbb;
+    border-right: 1px solid #bbb; */
 }
 
 li a {
@@ -67,7 +67,7 @@ li a {
 }
 
 li:last-child {
-    border-right: 1px solid #bbb;
+    /* border-right: 1px solid #bbb; */
 }
 
 /* Change the link color to #111 (black) on hover */
