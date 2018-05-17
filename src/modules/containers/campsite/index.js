@@ -33,8 +33,17 @@ class Campsite extends Component {
                     <h4>
                         {campsite.name}
                     </h4>
+                    <h6>
+                        Campground Description:
+                    </h6>
                     <p>
                         {campsite.campgroundDescription}
+                    </p>
+                    <h6>
+                        Tent Description:
+                    </h6>
+                    <p>
+                        {campsite.tentDescription}
                     </p>
                 </div>
             </div>
