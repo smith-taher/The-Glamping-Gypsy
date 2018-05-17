@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router';
 
 const TopBar = () => (
-    <ul className="bar">
+    <ul className="bar sidenav">
         <li><a>
             <Link to={`/`}>
             Home
@@ -35,7 +35,7 @@ const TopBar = () => (
         </li>
         <li className='itemButton'>
             <button
-                className='btn btn-primary'
+                className='button'
             >
                 Book Now!
             </button>
