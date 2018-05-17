@@ -12,7 +12,7 @@ class Campsites extends Component {
     }
     
     renderCampsite ( campsite, index) {
-        const shortDescription = `${R.take(60, campsite.tentDescription)}...`
+        const shortDescription = `${R.take(60, campsite.campgroundDescription)}...`
 
         return (
             <div className='col-sm-4 col-lg-4 col-md-4 book-list' key={index}>

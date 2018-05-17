@@ -34,7 +34,7 @@ class Campsite extends Component {
                         {campsite.name}
                     </h4>
                     <p>
-                        {campsite.tentDescription}
+                        {campsite.campgroundDescription}
                     </p>
                 </div>
             </div>
@@ -47,7 +47,7 @@ class Campsite extends Component {
             <div className='view-container'>
                 <div className='container'>
                     <div className='row'>
-                        <div className='col-md-12'>
+                        <div className='col-md-9'>
                             {campsite && this.renderContent()}
                         </div>
                     </div>
